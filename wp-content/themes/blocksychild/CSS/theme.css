@@ -113,3 +113,134 @@ body * {
 #marc_txt02 {
    line-height: 20px;
 }
+
+/*PAGE NOUS RENCONTRER*/
+
+.elementor-88 .elementor-element.elementor-element-98ab2c0 img {
+   margin-right: -220px;
+   margin-top: -120px;
+}
+
+#containernr_01 {
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
+   border-bottom-left-radius: 3%;
+   border-bottom-right-radius: 3%;
+}
+
+#container_nr02 {
+   margin-left: -200px!important;
+}
+
+#titlepa_05 {
+   width: 680px;
+}
+
+#contentpa_05 {
+   width: 680px;
+   line-height: 24px;
+   margin-top: -10px;
+}
+
+#titlepa_06 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+#megane_title, #brooke_title, #sylvie_title {
+   margin-top: -50px;
+}
+
+#megane_txt, #brooke_txt, #sylvie_txt {
+   margin-top: -150px;
+}
+
+#nr_cadre01 {
+   margin-left: 320px;
+}
+
+#nr_plant {
+   margin-left: 220px;
+   margin-bottom: -15px;
+}
+
+#titlepa_07 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.wpcf7 label:not(.wpcf7-form-control-wrap) {
+   line-height: 24px;
+   font-family: 'Syne', sans-serif;
+   font-size: 20px !important;
+   font-weight: 400 !important;
+   color: #000;
+}
+
+.wpcf7 input[type="text"]:not(.wpcf7-form-control-wrap) { 
+   background-color: white;
+   border-radius: 7px;
+   box-shadow: 0px 4px 14px 0px #0000000A;
+   border: none;
+   height: 71px;
+   margin-top: 10px;
+}
+
+.wpcf7 input[type="text"]:not(.wpcf7-form-control-wrap):hover {
+   background-color: white;
+}
+
+.wpcf7 input[type="email"]:not(.wpcf7-form-control-wrap) { 
+   background-color: white;
+   border-radius: 7px;
+   box-shadow: 0px 4px 14px 0px #0000000A;
+   border: none;
+   height: 71px;
+   margin-top: 10px;
+}
+
+.wpcf7 input[type="email"]:not(.wpcf7-form-control-wrap):hover {
+   background-color: white;
+}
+
+.wpcf7 textarea:not(.wpcf7-form-control-wrap) { 
+   background-color: white;
+   border-radius: 7px;
+   box-shadow: 0px 4px 14px 0px #0000000A;
+   border: none;
+   height: 237px;
+   margin-top: 10px;
+}
+
+.wpcf7 input[type="submit"] {
+   background-color: #DC9F96;
+   font-family: 'syne', sans-serif;
+   border-radius: 5px;
+   padding: 15px 75px;
+}
+
+.wpcf7 input[type="submit"]:hover {
+   background-color: #C02E44;
+}
+
+#formulaire_nr > p .wpcf7 input[type="submit"] {
+   display: block;
+   margin: 0 auto;
+}
+
+.wpcf7 .wpcf7-submit {
+   float: none!important;
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+}
+
+#nr_cadre02 > .e-con-inner {
+   background-image: url(https://i.ibb.co/SnHmKYG/demie-fleur.png);
+   background-repeat: no-repeat;
+   background-position: 34% 75%;
+}
+
+#img_footer {
+   margin-bottom: -10px;
+}
