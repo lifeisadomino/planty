@@ -6,6 +6,12 @@ body * {
    font-family: 'Syne', sans-serif;
 }
 
+.menu-item menu-item-type-post_type menu-item-object-page menu-item-118 > .ct-menu-link { 
+   background: white;
+   text-transform: none;
+   color: black;
+}
+
 /* .menu .ct-menu-link { 
    background-color: #DC9F96;
    font-family: 'Syne', sans-serif;
@@ -243,4 +249,14 @@ body * {
 
 #img_footer {
    margin-bottom: -10px;
+}
+
+/*PAGE COMMANDER*/
+
+#button_command01, #button_command02, #button_command03, #button_command04 {
+   border: 0px;
+   font-family: 'Times New Roman', Times, serif!important;
+   font-size: 14px;
+   background: white;
+   color: black;
 }
