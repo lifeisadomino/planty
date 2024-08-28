@@ -6,17 +6,36 @@ body * {
    font-family: 'Syne', sans-serif;
 }
 
-.menu-item menu-item-type-post_type menu-item-object-page menu-item-118 > .ct-menu-link { 
+nav[class*=menu] #menu-item-118 >.ct-menu-link { 
    background: white;
-   text-transform: none;
-   color: black;
+   font-size: 16px!important;
+   text-transform: none!important;
+   font-weight: lighter!important;
+   color: black!important;
+   font-family: 'Syne', sans-serif;
 }
 
-/* .menu .ct-menu-link { 
-   background-color: #DC9F96;
+nav[class*=menu] #menu-item-118 >.ct-menu-link:hover { 
+   background: white;
+   font-size: 16px!important;
+   font-weight: bold!important;
+   color: black!important;
+}
+
+nav[class*=menu] #menu-item-119 >.ct-menu-link { 
+   background: #DC9F96;
+   font-size: 16px!important;
+   text-transform: none!important;
+   font-weight: lighter!important;
+   color: white!important;
    font-family: 'Syne', sans-serif;
-   color: #FFFFFF !important;
-} */
+}
+
+nav[class*=menu] #menu-item-119 >.ct-menu-link:hover { 
+   background: #C02E44;
+   font-size: 16px!important;
+   color: white!important;
+}
 
 /*PAGE D'ACCUEIL*/
 
@@ -253,10 +272,91 @@ body * {
 
 /*PAGE COMMANDER*/
 
-#button_command01, #button_command02, #button_command03, #button_command04 {
+.elementor-element-52d1d9f .elementor-heading-title {
+   margin-bottom: 35px;
+   margin-top: 35px;
+}
+
+
+.elementor-element-93ea3f2 .elementor-heading-title {
+   margin-bottom: 35px;
+   margin-top: 25px;
+}
+
+.img_fruits { 
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   width: 90%;
+}
+
+.fraise_img, .pamplemousse_img, .framboise_img, .citron_img {
+   width: 90%;
+}
+
+.container_quantite {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   width: 90%;
+   margin-top: 20px;
+}
+
+.wpcf7-form-control-wrap > input[type=number] {
    border: 0px;
+   border-radius: 0px;
+   width: 60px;
+   height: 55px;
    font-family: 'Times New Roman', Times, serif!important;
-   font-size: 14px;
+   font-size: 16px;
    background: white;
    color: black;
+   display: block;
+}
+
+.divider_elementor {
+   border: none;
+   border-top: 1px solid white;
+   margin-top: 25px;
+   margin-bottom: 60px;
+}
+
+.formulaire_commander {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 30px; 
+}
+
+.column_01 {
+   flex-direction: column;
+   border-right: 1px solid white;
+   padding-right: 115px;
+}
+
+.infos_formulaire {
+   font-family: 'syne', sans-serif;
+   font-size: 30px;
+   color: white;
+   font-weight: 700;
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
+
+label {
+   font-family: 'syne', sans-serif;
+   font-size: 20px;
+   color: white!important;
+   font-weight: 400;
+   text-align: left;
+   margin-top: 30px!important;
+   margin-bottom: 5px;
+}
+
+.formulaire_commander > input.wpcf7-form-control wpcf7-text {
+   width: 50%;
+}
+
+.column_02 {
+   flex-direction: column;
 }
