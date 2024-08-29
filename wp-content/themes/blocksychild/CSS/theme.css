@@ -12,23 +12,42 @@ nav[class*=menu] #menu-item-118 >.ct-menu-link {
    text-transform: none!important;
    font-weight: lighter!important;
    color: black!important;
-   font-family: 'Syne', sans-serif;
 }
 
 nav[class*=menu] #menu-item-118 >.ct-menu-link:hover { 
    background: white;
+   font-family: 'Syne', sans-serif;
    font-size: 16px!important;
    font-weight: bold!important;
    color: black!important;
 }
 
+[data-header*="type-1"] .ct-header [data-id="menu"] > ul > li.lienAdmin {
+   margin: 15px!important;
+   font-weight: lighter!important;
+}
+
+[data-header*="type-1"] .ct-header [data-id="menu"] > ul > li.lienAdmin > a {
+   background: white;
+   color: black!important;
+   font-family: 'Syne', sans-serif;
+   font-size: 16px!important;
+   font-weight: lighter!important;
+   padding-right: 10px;
+}
+
+[data-header*="type-1"] .ct-header [data-id="menu"] > ul > li.lienAdmin > a:hover {
+   background: white!important;
+   font-weight: bold!important;
+}
+
 nav[class*=menu] #menu-item-119 >.ct-menu-link { 
    background: #DC9F96;
+   font-family: 'Syne', sans-serif;
    font-size: 16px!important;
    text-transform: none!important;
    font-weight: lighter!important;
    color: white!important;
-   font-family: 'Syne', sans-serif;
 }
 
 nav[class*=menu] #menu-item-119 >.ct-menu-link:hover { 
@@ -45,7 +64,6 @@ nav[class*=menu] #menu-item-119 >.ct-menu-link:hover {
    column-gap: 0px;
    text-align: center;
    color: #3B8E46;
-   font-family: "Syne", Sans-serif;
    font-size: 47px;
    font-weight: 800;
    text-transform: uppercase;
@@ -196,7 +214,6 @@ nav[class*=menu] #menu-item-119 >.ct-menu-link:hover {
 
 .wpcf7 label:not(.wpcf7-form-control-wrap) {
    line-height: 24px;
-   font-family: 'Syne', sans-serif;
    font-size: 20px !important;
    font-weight: 400 !important;
    color: #000;
@@ -239,7 +256,6 @@ nav[class*=menu] #menu-item-119 >.ct-menu-link:hover {
 
 .wpcf7 input[type="submit"] {
    background-color: #DC9F96;
-   font-family: 'syne', sans-serif;
    border-radius: 5px;
    padding: 15px 75px;
 }
@@ -334,7 +350,6 @@ nav[class*=menu] #menu-item-119 >.ct-menu-link:hover {
 }
 
 .infos_formulaire {
-   font-family: 'syne', sans-serif;
    font-size: 30px;
    color: white;
    font-weight: 700;
@@ -344,7 +359,6 @@ nav[class*=menu] #menu-item-119 >.ct-menu-link:hover {
 }
 
 label {
-   font-family: 'syne', sans-serif;
    font-size: 20px;
    color: white!important;
    font-weight: 400;
